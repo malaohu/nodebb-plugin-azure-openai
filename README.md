@@ -1,5 +1,4 @@
 # Azure OpenAI Plugin for NodeBB
 
-This plugin let's users ask questions to ChatGPT in their forum posts by mentioning the chatgpt user with @<chat_gpt_username>. The user is created by admins and their username is set in the ACP page.
-
+这个插件是基于 https://github.com/NodeBB/nodebb-plugin-openai  修改，目前仅支持Azure OpenAI
 
