@@ -1,0 +1,16 @@
+{
+	"id": "nodebb-plugin-azure-openai",
+	"url": "https://github.com/malaohu/nodebb-plugin-azure-openai",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "static:app.load", "method": "init" },
+		{ "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
+		{ "hook": "action:mentions.notify", "method": "actionMentionsNotify" },
+		{ "hook": "action:messaging.save", "method": "actionMessagingSave" }
+	],
+	"modules": {
+		"../admin/plugins/azure-openai.js": "./public/lib/admin.js"
+	},
+	"templates": "templates",
+	"languages": "languages"
+}
