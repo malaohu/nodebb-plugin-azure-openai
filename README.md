@@ -7,3 +7,8 @@
 
 
 ![](./screenshots/screenshot2.png)
+
+
+利用API发帖？可参考23年年初写的Python代码
+
+https://github.com/malaohu/nodebb-openai-chatgpt
